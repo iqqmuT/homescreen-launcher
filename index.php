@@ -107,7 +107,7 @@ if (isset($_GET['icon180'])) {
       }
 
       function redirect() {
-        document.location.href = '$next';
+        document.location.href = '<?php print($next); ?>';
       }
 
       function stop() {
